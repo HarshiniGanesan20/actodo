@@ -50,7 +50,7 @@ function Login(props) {
         <>
             <div className='bg-black p-16'>
                 <div className='bg-[#EFEFEF] p-10 border rounded-md'>
-                    <h1 className="text-3xl font-medium">Hello!</h1>
+                    <h1 className="text-3xl font-medium">Account Login</h1>
                     {reguser?<p>"I Help You Manage Your Activities after your login :)"</p> : <p className="text-red-700">"Please Sign Up before login"</p>}
                     
 
